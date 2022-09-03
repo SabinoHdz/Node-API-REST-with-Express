@@ -7,15 +7,27 @@ Desarrollo de API REST utilizando la librería Express de Node
   * ```npm run dev```
 ## Entorno de produccion
   *  ```npm run start```
-## Informacion de la API
+## Informacion de la API o ENDPOINTS
   + Productos
-    1. /api/v1/products/  GET
-    2. /api/v1/products/{id}  GET
-    3. /api/v1/products/  POST
-    4. /api/v1/products/{id}  PATCH
-    5. /api/v1/products/{id}  DELETE
+    1. /api/v1/products    GET
+    2. /api/v1/products/{id}    GET
+    3. /api/v1/products    POST
+    4. /api/v1/products/{id}    PATCH
+    5. /api/v1/products/{id}    DELETE
   + Usuarios
+    1. /api/v1/users    GET
+    2. /api/v1/users/{id}   GET
+    3. /api/v1/users    POST
+    4. /api/v1/users/{id}    PATCH
+    5. /api/v1/users/{id}    DELETE
   + Categorias
+    1. /api/v1/users    GET
+    2. /api/v1/users/{id}   GET
+    3. /api/v1/users    POST
+    4. /api/v1/users/{id}    PATCH
+    5. /api/v1/users/{id}    DELETE
+ 
+   
 ## Librerias Utilizadas
 * nodemon
 * express
