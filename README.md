@@ -8,26 +8,31 @@ Desarrollo de API REST utilizando la librería Express de Node
 ## Entorno de produccion
   *  ```npm run start```
 ## Informacion de la API o ENDPOINTS
+  + Dirección General o fija:
+    exmaple: http://localhost:4000/api/v1/
   + Productos
-    1. /api/v1/products    GET
-    2. /api/v1/products/{id}    GET
-    3. /api/v1/products    POST
-    4. /api/v1/products/{id}    PATCH
-    5. /api/v1/products/{id}    DELETE
+    | Endpoind|Type request| Descripcition|
+    |--------|--------|--------|
+    |    products   |    GET    | Obtener todos los productos|
+    |    products/{id}    |    GET    |Obtener producto por su ID|
+    |    products    |    POST    |Agregar producto|
+    |    products/{id}    |    PATH    | Actualizar producto por su ID |
+    |    products/{id}    |    DELETE   |Eliminar producto por su ID  |
   + Usuarios
-    1. /api/v1/users    GET
-    2. /api/v1/users/{id}   GET
-    3. /api/v1/users    POST
-    4. /api/v1/users/{id}    PATCH
-    5. /api/v1/users/{id}    DELETE
-  + Categorias
-    1. /api/v1/users    GET
-    2. /api/v1/users/{id}   GET
-    3. /api/v1/users    POST
-    4. /api/v1/users/{id}    PATCH
-    5. /api/v1/users/{id}    DELETE
- 
+      | Endpoind|Type request| Descripcition|
+    |--------|--------|--------|
+    |    users   |    GET    | Obtener todos los usuarios|
+    |    users/{id}    |    GET    |Obtener usuario por su ID|
+    |    users    |    POST    |Agregar usuario|
+    |    users/{id}    |    PATH    | Actualizar usuario por su ID |
+    |    users/{id}    |    DELETE   |Eliminar usuario por su ID  |
    
+  + Categorias
+    * En desarrollo
+## Actualizaciones
+  Implementar la funcionalidad de categorias
+## Errores encontrados
+  * Mostrar información de las categorias
 ## Librerias Utilizadas
 * nodemon
 * express
